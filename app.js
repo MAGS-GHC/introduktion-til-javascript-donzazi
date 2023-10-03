@@ -6,3 +6,10 @@ console.log(
 //Lav jeres svar her
 console.log("Hello World");
 
+console.log(
+  "opgave 1.2 - Lav et program, som skriver “Hello” og på næste linje skriver “World” i konsollen")
+
+console.log("Hello\nWorld" )
+console.log("Hello")
+console.log("World")
+
