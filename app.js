@@ -13,3 +13,9 @@ console.log("Hello\nWorld" )
 console.log("Hello")
 console.log("World")
 
+console.log(
+  "opgave 1.3 - Lav et program, som skriver følgende i konsollen")
+
+  console.log(
+    "*\n**\n***\n**\n*\n"
+  )
