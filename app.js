@@ -54,4 +54,49 @@ console.log(25 % 3);
 console.log(25 % 2);
 console.log(3 ** 2);
 
-console.log("Opgave ");
+console.log(
+  "Opgave 1.6 - Skriv i konsollen kombinationen af de her 2 strings ved brug af deres..."
+);
+let tekst1 = "Hello";
+let tekst2 = "World!";
+console.log(tekst1);
+console.log(tekst2);
+console.log(tekst1 + " " + tekst2);
+
+console.log(
+  "Opgave 1.7 - Udskriv længden af den her string “GF2 Online” - altså antal tegn"
+);
+
+let tekst3 = "GF2 Online";
+console.log("the length for this string is: " + tekst3.length);
+
+console.log(
+  "opgave 1.8 - Lav et program som skriver et tilfældig tal i konsollen"
+);
+
+let randomnr = Math.random() * 10;
+console.log(randomnr);
+
+console.log(
+  "Opgave 1.9 - Find ud af hvad hver linje skriver ud i vores konsol og forklar hvorfor lige præcis det bliver skrevet"
+);
+
+//One interesting thing to note and be aware of in JavaScript is the result of adding a number and a string. We know that 1 + 1 should equal 2, but this equation will have unexpected results. So "let x = 1 +"1"; result in "11" instead of "2".
+let number = 23;
+console.log(number);
+console.log((number = "23")); // We use "=" to assign a value on the right to a variable on the left.
+console.log(number == "23"); // Equal = Returns true if the operands are equal.
+console.log(number === "23"); // Strict Equal = Returns true if the operands are equal and of the same type.
+console.log((number -= 23)); // 	Subtraction assignment = Subtracts the value on the right from the variable value on the left, and returns the new variable value
+
+console.log((number += 23)); // Addition assignment = Adds the value on the right to the variable value on the left, then returns the new variable value
+
+console.log((number += "23")); // concatenate = just put 23 and 23 together, so the result is "2323".
+console.log((number -= "46")); // = Puts the 23 and 23 together, but substracts 48 from 2323, so the result will be 2277.
+
+console.log(number != "23"); // Not Equal = Returns true if the operands are not equal.
+console.log((number **= 2)); // number exponentiation =
+
+//https://www.digitalocean.com/community/tutorials/how-to-do-math-in-javascript-with-operators
+
+//Conditionals - If / else statements OPGAVER!!
