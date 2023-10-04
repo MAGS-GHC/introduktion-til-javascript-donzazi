@@ -74,8 +74,8 @@ console.log(
   "opgave 1.8 - Lav et program som skriver et tilfældig tal i konsollen"
 );
 
-let randomnr = Math.random() * 10;
-console.log(randomnr);
+let nr1 = Math.random();
+console.log(nr1);
 
 console.log(
   "Opgave 1.9 - Find ud af hvad hver linje skriver ud i vores konsol og forklar hvorfor lige præcis det bliver skrevet"
@@ -95,8 +95,37 @@ console.log((number += "23")); // concatenate = just put 23 and 23 together, so 
 console.log((number -= "46")); // = Puts the 23 and 23 together, but substracts 48 from 2323, so the result will be 2277.
 
 console.log(number != "23"); // Not Equal = Returns true if the operands are not equal.
-console.log((number **= 2)); // number exponentiation =
+console.log((number **= 2)); // number exponentiation = Put the 2277*2277 = 5184729
 
 //https://www.digitalocean.com/community/tutorials/how-to-do-math-in-javascript-with-operators
 
 //Conditionals - If / else statements OPGAVER!!
+
+console.log("Conditionals - If / else statements OPGAVER!");
+
+console.log(
+  "Opgave 1 - I skal skrive et stykke kode som fortæller om et tal (int) er lige eller ulige."
+);
+
+let nr2 = 200;
+console.log("Is the number 2 equal or odd?");
+if (nr2 % 2 == 0) {
+  console.log("equal");
+} else {
+  console.log("odd");
+}
+
+console.log("opgave 2- ");
+let nr3 = 27;
+if (nr3 % 5 == 0) {
+  console.log("Går op i");
+} else {
+  console.log("Den går ikke op i");
+}
+
+//console.log("opgave 3 -");
+
+//let randomNr = Math.floor{Math.random()}*100+1
+//console.log(randomNr);
+//if (randomNr % 5==0){console.log("Går op i")}
+//else {console.log("Går ikke op i")};
